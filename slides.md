@@ -1,45 +1,40 @@
 ---
 marp: true
 title: Product Documentation with Marp
-description: Maintained in GitHub for version-controlled docs
-theme: ./theme/custom-tech-docs.css
+description: Multi-format developer documentation powered by Marp
 paginate: true
 footer: "Page $page / $total"
 math: katex
+theme: ./theme/custom-tech-docs.css
 ---
+
+<!-- _class: lead -->
 
 # Product Documentation with Marp  
+### Creating Maintainable, Version-Controlled Docs  
 **Email:** <22f3003000@ds.study.iitm.ac.in>
-
-This slide deck demonstrates custom themes, math, background images, and GitHub version control.
 
 ---
 
-<!-- _backgroundImage: url('images/bg-docs.jpg') -->
+# Why Use Marp?
+
+- Version controlled documentation (`git`)
+- Single Markdown source → PDF, PPTX, HTML
+- Custom themes for company branding
+- Supports math (KaTeX), diagrams, images
+- Easy to automate with GitHub Actions
+
+---
+
+<!-- _backgroundImage: url('images/background.jpg') -->
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
 
-# Background Image Slide
+# Background Image Example
 
-This is an example slide with a background image stored in the repository.
+This slide demonstrates a background image stored in the repository.
 
 ---
 
-## Algorithmic Complexity
+# Project Structure
 
-Example complexity expressions:
-
-Time: $O(n \log n)$  
-Space: $O(n)$
-
-A recurrence:
-
-$$
-T(n) = T(n/2) + O(n)
-$$
-
-Therefore:
-
-$$
-T(n) = O(n \log n)
-$$
