@@ -24,4 +24,19 @@ pre, code {
   border-radius: 6px;
   padding: 0.6rem;
 }
+section {
+  font-family: "Inter", "Helvetica", Arial, sans-serif;
+  background-color: #0b1220;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: #38bdf8;
+}
+
+footer {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
 
