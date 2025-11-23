@@ -38,3 +38,81 @@ This slide demonstrates a background image stored in the repository.
 
 # Project Structure
 
+marp-product-docs/
+├─ slides.md
+├─ images/
+│ ├─ background.jpg
+│ └─ architecture.png
+└─ theme/
+└─ custom-tech-docs.css
+
+
+
+---
+
+# Algorithmic Complexity
+
+Inline math example:  
+Time complexity: $O(n \log n)$
+
+Block-level example:
+
+$$
+T(n) = T(\frac{n}{2}) + O(n)
+$$
+
+Therefore:
+
+$$
+T(n) = O(n \log n)
+$$
+
+---
+
+# Using Custom Themes
+
+Your custom theme file:
+
+
+Provides:
+
+- Custom fonts  
+- Corporate colors  
+- Better spacing  
+- Styled headers & footers
+
+---
+
+# Exporting
+
+You can export to:
+
+- **PDF**
+- **PPTX**
+- **HTML**
+
+Using:
+- VS Code Extension  
+- GitHub Actions  
+- Marp Web App  
+
+---
+
+# GitHub Raw URL
+
+You can access the source Markdown here:
+
+https://raw.githubusercontent.com/
+<USERNAME>/<REPO>/main/slides.md
+
+
+(Substitute your GitHub username and repository.)
+
+---
+
+# Thank You
+
+For questions, contact:  
+📧 <22f3003000@ds.study.iitm.ac.in>
+
+
