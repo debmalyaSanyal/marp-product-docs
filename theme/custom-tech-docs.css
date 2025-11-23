@@ -1,42 +1,47 @@
-/* custom-tech-docs.css - Marp theme (very small example) */
+/* ================================
+   Custom Theme: Tech Docs Blue
+   ================================ */
+
 section {
   font-family: "Inter", "Helvetica", Arial, sans-serif;
-  background-color: #0b1220;
-  color: #e5e7eb;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 2.5rem;
 }
 
-/* Header style */
+/* Header */
 h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.4rem;
-}
-
-/* Footer / page number */
-footer {
-  font-size: 0.8rem;
-  opacity: 0.9;
-}
-
-/* make code blocks look nicer */
-pre, code {
-  font-family: "Fira Code", monospace;
-  background: rgba(255,255,255,0.03);
-  border-radius: 6px;
-  padding: 0.6rem;
-}
-section {
-  font-family: "Inter", "Helvetica", Arial, sans-serif;
-  background-color: #0b1220;
-  color: #e5e7eb;
-}
-
-h1 {
-  font-size: 2.3rem;
   color: #38bdf8;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
 }
 
+/* Sub-heading */
+h2, h3 {
+  color: #7dd3fc;
+}
+
+/* Code blocks */
+pre, code {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* List styling */
+li {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+/* Footer */
 footer {
+  color: #94a3b8;
   font-size: 0.9rem;
-  opacity: 0.9;
 }
 
+/* Lead Slide */
+.lead section {
+  text-align: center;
+  padding-top: 8rem;
+}
